@@ -1,6 +1,6 @@
 ### View the website here
 
-https://minh-chat.netlify.app/
+https://minh100.github.io/MChat/
 
 ## Chat App
 
@@ -29,8 +29,7 @@ Simply push to github from the root folder to push code both in client and serve
 4. git push heroku master
 
 ##### If any changes in client folder
-1. npm run build
-2. netlify deploy
+1. npm run deploy
 
 ### Features
 
@@ -47,13 +46,14 @@ Simply push to github from the root folder to push code both in client and serve
   - React
 - Other
   - SocketIO
+    - For web sockets and multiplayer capability
 
 ### Dev Features
 
-- Netlify
-  - Used to display front end
+- Github Pages
+  - Used to host/display frontend server
 - Heroku
-  - Used to create back end 
+  - Used to host backend server
 - cors
 - nodemon
 - react-scroll-to-bottom
@@ -67,8 +67,6 @@ Simply push to github from the root folder to push code both in client and serve
 ### Tutorials/Inspiration
 
 https://www.youtube.com/watch?v=ZwFA3YMfkoc
-
-[Netlify help](https://docs.netlify.com/cli/get-started/#installation)
 
 
 
