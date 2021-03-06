@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/MChat/static/css/main.05780290.chunk.css",
-    "main.js": "/MChat/static/js/main.efdb9383.chunk.js",
-    "main.js.map": "/MChat/static/js/main.efdb9383.chunk.js.map",
+    "main.css": "/MChat/static/css/main.f1e35eca.chunk.css",
+    "main.js": "/MChat/static/js/main.7248eed5.chunk.js",
+    "main.js.map": "/MChat/static/js/main.7248eed5.chunk.js.map",
     "runtime-main.js": "/MChat/static/js/runtime-main.7cfcfc6c.js",
     "runtime-main.js.map": "/MChat/static/js/runtime-main.7cfcfc6c.js.map",
     "static/js/2.17f19926.chunk.js": "/MChat/static/js/2.17f19926.chunk.js",
     "static/js/2.17f19926.chunk.js.map": "/MChat/static/js/2.17f19926.chunk.js.map",
     "index.html": "/MChat/index.html",
-    "static/css/main.05780290.chunk.css.map": "/MChat/static/css/main.05780290.chunk.css.map",
-    "static/js/2.17f19926.chunk.js.LICENSE.txt": "/MChat/static/js/2.17f19926.chunk.js.LICENSE.txt"
+    "static/css/main.f1e35eca.chunk.css.map": "/MChat/static/css/main.f1e35eca.chunk.css.map",
+    "static/js/2.17f19926.chunk.js.LICENSE.txt": "/MChat/static/js/2.17f19926.chunk.js.LICENSE.txt",
+    "static/media/MChatLogo.2b418a25.png": "/MChat/static/media/MChatLogo.2b418a25.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7cfcfc6c.js",
     "static/js/2.17f19926.chunk.js",
-    "static/css/main.05780290.chunk.css",
-    "static/js/main.efdb9383.chunk.js"
+    "static/css/main.f1e35eca.chunk.css",
+    "static/js/main.7248eed5.chunk.js"
   ]
 }
