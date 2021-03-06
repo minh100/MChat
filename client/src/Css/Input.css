@@ -6,10 +6,11 @@
   
   .input {
     border: none;
-    border-radius: 0;
-    padding: 5%;
+    border-bottom-left-radius: 10px;
+    padding: 3%;
     width: 80%;
     font-size: 1.2em;
+    height: 100%;
   }
   
   input:focus, textarea:focus, select:focus{
@@ -17,12 +18,18 @@
   }
   
   .sendButton {
+    height: 100%;
     color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
     background: #e63946;
-    padding: 20px;
+    padding: 3%;
     display: inline-block;
     border: none;
     width: 20%;
+    border-bottom-right-radius: 8px;
+  }
+
+  .sendButton:hover {
+    cursor: pointer;
   }

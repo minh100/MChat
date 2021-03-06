@@ -3,8 +3,32 @@
     flex-direction: column;
     margin-right: 200px;
     color: white;
-    height: 60%;
+    height: 90%;
+    width: 30%;
     justify-content: space-between;
+  }
+
+  #scrollbar {
+    overflow-y: auto;
+    height: 70vh;
+    width: 24vw;
+  }
+
+  #scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+  }
+
+  #scrollbar::-webkit-scrollbar
+  {
+    width: 12px;
+    background-color: #F5F5F5;
+  }
+
+  #scrollbar::-webkit-scrollbar-thumb
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #D62929;
   }
   
   .activeContainer {
@@ -16,6 +40,7 @@
   .activeItem {
     display: flex;
     align-items: center;
+    word-wrap: break-word;
   }
   
   .activeContainer img {

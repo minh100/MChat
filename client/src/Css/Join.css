@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     margin: 0;
   }
-  
+
   #root {
     height: 100vh;
   }
@@ -22,7 +22,8 @@ html, body {
   }
   
   .joinInnerContainer {
-    width: 20%;
+    max-width: 30%;
+    min-width: 360px;
   }
   
   .joinInput {
@@ -60,7 +61,7 @@ html, body {
     }
   
     .joinInnerContainer {
-      width: 90%;
+      width: 100%;
     }
   
   

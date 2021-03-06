@@ -9,7 +9,7 @@ export const TextContainer = ({users}) => {
                 users ? (
                     <div>
                         <h2>{`People in the room: ${users.length}`}</h2>
-                        <div>
+                        <div id="scrollbar">
                             <h3>
                                 {users.map((user) => {
                                     return (

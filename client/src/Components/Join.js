@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../Css/Join.css';
 
+import MChatLogo from '../MChatLogo.png';
+
 export const Join = () => {
     const [name, setName] = useState("");
     const [room, setRoom] = useState("");
@@ -9,7 +11,7 @@ export const Join = () => {
     return (
         <div className="joinOuterContainer">
             <div className="joinInnerContainer">
-                <h1 className="heading">Chat</h1>
+                <h1 className="heading"><img id="logo" src={MChatLogo}></img></h1>
                 <input
                     placeholder="Name"
                     className="joinInput"
