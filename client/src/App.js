@@ -4,6 +4,7 @@ import { SocketContext, socket } from './Socket.js';
 
 import { Chat } from './Components/Chat.js';
 import { Join } from './Components/Join.js';
+import {Footer} from './Components/Footer.js';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router basename="/MChat">
         <Route exact path="/" component={Join} />
         <Route path="/chat" component={Chat} />
+        <Footer />
       </Router>
     </SocketContext.Provider>
 
