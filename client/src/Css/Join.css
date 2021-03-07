@@ -123,16 +123,37 @@ html, body {
   text-align: left;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 640px) {
   .joinOuterContainer {
     height: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .joinInnerContainer {
     width: 100%;
+    flex: 50%;
   }
 
+  .room-list-container {
+    flex: 50%;
+    max-width: 30%;
+    min-width: 300px;
+    margin-left: -20px;
+  }
 
+  #logo {
+    margin-left: -20px;
+  }
+
+  .room-list {
+    height: 120px;
+    width: 340px;
+  }
+
+  .heading2 {
+    margin-top: 10px;
+  }
 }
 
 button:focus {
