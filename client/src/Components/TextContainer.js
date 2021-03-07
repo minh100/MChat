@@ -7,7 +7,7 @@ export const TextContainer = ({users}) => {
         <div className="textContainer">
             {
                 users ? (
-                    <div>
+                    <div className="user-container">
                         <h2>{`People in the room: ${users.length}`}</h2>
                         <div id="scrollbar">
                             <h3>

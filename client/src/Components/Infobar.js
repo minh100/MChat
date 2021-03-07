@@ -5,7 +5,7 @@ export const Infobar = ({room}) => {
     return (
         <div className="infoBar">
             <div className="leftInnerContainer">
-                <h3>Code: {room}</h3>
+                <h3>Room Name: {room}</h3>
             </div>
             <div className="rightInnerContainer">
                 <a href="/MChat">Leave Room</a>

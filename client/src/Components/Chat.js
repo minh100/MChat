@@ -28,6 +28,10 @@ export const Chat = ({ location }) => {
             if (error) alert(error);
         })
 
+        return () => {
+            socket.off('join');
+        }
+
     }, [location.search, socket])
 
     useEffect(() => {
@@ -60,8 +64,8 @@ export const Chat = ({ location }) => {
 
     return (
         <div className="outerContainer">
-            <TextContainer users={users} />
-            <div className="container">
+            <TextContainer className="container-column" users={users} />
+            <div className="container-column" id="container">
                 <Infobar room={room} />
                 <Messages messages={messages} name={name} />
                 <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
